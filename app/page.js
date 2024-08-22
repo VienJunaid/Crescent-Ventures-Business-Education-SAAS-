@@ -3,12 +3,6 @@ import getStripe from '../utils/get-stripe';
 import { SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
 import {Container, Button, Typography, Head, AppBar, Toolbar, Box, Grid} from '@mui/material';
 
-
-
-
-
-
-
 export default function Home() {
   return (
     <Container maxWidth="100vw">
